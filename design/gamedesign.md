@@ -55,7 +55,8 @@ If the player doesn't destroy a descending spaceship, it reappears in its spot i
 
 The E bar at the bottom represents the enemies remaining in the current wave. Its green bar decreases as each enemy is
 destroyed, leaving black space behind it rather than a red background. Player and enemy missiles are both 1 × 4 pixel
-vertical lines. The player missile travels at 144 logical pixels per second.
+vertical lines. Player movement, enemy formation and diving movement, and all missile movement are 50 percent faster
+than their original tuning. The player missile travels at 216 logical pixels per second.
 The bottom-right number shows the current level without a player label. Spare launcher icons show the player's remaining
 lives. Every enemy missile or diving-ship hit destroys one launcher. Only a destroyed player launcher displays the
 explosion sprite; destroyed enemies disappear immediately.
